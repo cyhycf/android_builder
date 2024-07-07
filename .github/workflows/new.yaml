@@ -1,4 +1,4 @@
-name: android_build_java17+
+name: android_build_new
 
 on:
   workflow_dispatch:
