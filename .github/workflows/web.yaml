@@ -24,7 +24,7 @@ jobs:
     - uses: cyhycf/android_builder@main
       with:
           build-folder-path: "./AD-speed-up" # Defaults to build, It is the folder where build files or html are stored
-          app-name: "Your-App-Name" # Defaults to MyApp
+          app-name: "adsp" # Defaults to MyApp
           output-folder-path: "my-apks" # Defaults to apk/, Where final APK files are created
     
     - name: 'Upload Artifact'
