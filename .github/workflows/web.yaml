@@ -1,4 +1,4 @@
-*name: Convert build files to APK and upload to Github Artifacts
+name: Convert build files to APK and upload to Github Artifacts
 on: 
  workflow_dispatch:
 
