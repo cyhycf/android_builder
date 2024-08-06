@@ -18,13 +18,13 @@ jobs:
 
         
 
-    - run: git clone https://github.com/cszwbirbwl/cszwbirbwl.github.io
+    - run: git clone https://github.com/g1tyx/idleant2 build
     
  
     - uses: cyhycf/android_builder@main
       with:
-          build-folder-path: "./cszwbirbwl.github.io" # Defaults to build, It is the folder where build files or html are stored
-          app-name: "kjybj" # Defaults to MyApp
+          build-folder-path: "./build" # Defaults to build, It is the folder where build files or html are stored
+          app-name: "idleant2" # Defaults to MyApp
           output-folder-path: "my-apks" # Defaults to apk/, Where final APK files are created
     
     - name: 'Upload Artifact'
