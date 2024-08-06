@@ -18,13 +18,13 @@ jobs:
 
         
 
-    - run: git clone https://github.com/g8hh/soul-not-found
+    - run: git clone https://github.com/cszwbirbwl/cszwbirbwl.github.io
     
  
     - uses: cyhycf/android_builder@main
       with:
-          build-folder-path: "./soul-not-found" # Defaults to build, It is the folder where build files or html are stored
-          app-name: "snf" # Defaults to MyApp
+          build-folder-path: "./cszwbirbwl/cszwbirbwl.github.io" # Defaults to build, It is the folder where build files or html are stored
+          app-name: "kjybj" # Defaults to MyApp
           output-folder-path: "my-apks" # Defaults to apk/, Where final APK files are created
     
     - name: 'Upload Artifact'
